@@ -16,7 +16,7 @@ This document covers basic Linux navigation commnads and heir relevance for syst
 `cd /path/to/directory` <br>
 
 ## Command descriptions
-  • `pwd`  
+  • `pwd`
     Display the current working directory <br>
   • `man`
     Display how a command works example: man pwd <br>
