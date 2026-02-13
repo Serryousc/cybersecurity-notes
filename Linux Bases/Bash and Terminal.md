@@ -7,7 +7,7 @@ This document covers basic Linux navigation commnads and heir relevance for syst
 ## Basic Navegation Commands
 
 # Bash
-`pwd`
+`pwd` \n
 `ls`
 `ls -l`
 `ls -a`
