@@ -6,7 +6,7 @@ This document covers basic Linux navigation commnads and heir relevance for syst
 
 ## Basic Navegation Commands
 
-# Bash
+### Bash
 `pwd` <br>
 `ls` <br>
 `ls -l` <br>
@@ -15,7 +15,7 @@ This document covers basic Linux navigation commnads and heir relevance for syst
 `cd ..` <br>
 `cd /path/to/directory` <br>
 
-## Command descriptions
+### Command descriptions
   • `pwd`
     Display the current working directory <br>
   • `man`
@@ -32,7 +32,7 @@ This document covers basic Linux navigation commnads and heir relevance for syst
     Moves to the parent directory <br>
   • `cd /path/to/directory` 
     Change directly to the specified adsolute path <br>
-## Security relevance
+### Security relevance
   • Hidden files may contains sensitive data(e.g. `.ssh`, `.env`) <br>
   • File permissions revealed by `ls -l` are useful for privilege escalation analysis <br>
   • Directory transversal is essential during reconnaissance <br>
