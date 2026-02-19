@@ -19,37 +19,37 @@ This document covers basic Linux permissions and how it works
 `id` <br>
 
 ### Command descriptions
-  • `adduser 'username'`
+  • `adduser 'username'`<br>
     Add a new user to the system <br>
-  • `deluser 'username'`
+  • `deluser 'username'`<br>
     removes user 'username' from the system<br>
-  • `passwd 'username'` 
+  • `passwd 'username'`<br> 
     Set a password to user 'username' <br>
-  • `su 'username'` 
+  • `su 'username'`<br> 
     Get a shell from user 'username' <br>
-  • `adduser 'username' sudo` 
+  • `adduser 'username' sudo`<br> 
     Add user 'username' to the system administration group <br>
-  • `chmod` 
+  • `chmod`<br> 
     Changes file or directory permissions.<br>
-    It controls three types of access:<br>
-      `r` (read)<br>
-      `w` (write)<br>
-      `w` (execute)<br>
-    For three types of entities:<br>
-      Owner (`u`)<br>
-      Group (`g`)<br>
-      Others (`o`)<br>
-    Example: `chmod 755 script.sh`<br>
-    Owner: `rwx`, Group: `r-x`, Others: `r-x`.<br>
-  • `chown` 
+    &nbsp;It controls three types of access:<br>
+      &nbsp;&nbsp;`r` (read)<br>
+      &nbsp;&nbsp;`w` (write)<br>
+      &nbsp;&nbsp;`w` (execute)<br>
+    &nbsp;For three types of entities:<br>
+      &nbsp;&nbsp;Owner (`u`)<br>
+      &nbsp;&nbsp;Group (`g`)<br>
+      &nbsp;&nbsp;Others (`o`)<br>
+    &nbsp;Example: `chmod 755 script.sh`<br>
+    &nbsp;Owner: `rwx`, Group: `r-x`, Others: `r-x`.<br>
+  • `chown`<br> 
     Changes the owner and/or group of a file or directory.<br>
-    Example: `chown user file.txt`, `chown user:group file.txt`<br>
-  • `groups` 
+    &nbsp;Example: `chown user file.txt`, `chown user:group file.txt`<br>
+  • `groups`<br> 
     Displays the groups a user belongs to.<br>
-    Example: `groups username`<br>
-  • `id` 
+    &nbsp;Example: `groups username`<br>
+  • `id`<br> 
     Displays the UID, GID and group memberships of the current user or a specified user. <br>
-    Example: `id`, `id username`
+    &nbsp;Example: `id`, `id username`<br>
  
  ### Security relevance
   • Improper user privilege assignment can lead to privilege escalation.<br>
