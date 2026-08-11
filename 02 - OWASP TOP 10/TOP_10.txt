@@ -1,4 +1,4 @@
-Comentando sobre a OWASP TOP 10 Vulnerabilites.
+[PT-BR] Comentando sobre a OWASP TOP 10 Vulnerabilites.
 
 De acordo com o owasp top 10 são: Controle de Acesso Quebrado, Falhas de Criptografia,
 Injeção , Design inseguro, Configurações incorretas de segurança, Componentes Vulneráveis e Desatualizados,
