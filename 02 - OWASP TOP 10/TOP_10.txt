@@ -1,0 +1,37 @@
+Comentando sobre a OWASP TOP 10 Vulnerabilites.
+
+De acordo com o owasp top 10 são: Controle de Acesso Quebrado, Falhas de Criptografia,
+Injeção , Design inseguro, Configurações incorretas de segurança, Componentes Vulneráveis e Desatualizados,
+Falhas de Identificação e Autenticação, Falhas de Software  e integridade de dados, falha de registros e monitoramento de segurança,
+Falsificação de solicitação do lado do servidor.
+
+Controle de Acesso Quebrado: Pode ser explorado quando as permissões de acessos não estão sendo controladas de forma eficiente,
+quando um usuário tem acesso de administrador mesmo que não seja necessário para a sua função.
+
+Falhas de Criptografia: Podem ser exploradas quando há falha no uso da criptografia, quando um token vaza ou uma sessão fica exposta.
+
+Injeção: podem ser exploradas com o envio de dados não confiáveis em formulários ou campos não sanitizados. exemplo: quando é inserido um codigo SQL
+em um formulario que não teve o tratamento devido, assim o mesmo retorna codigo ou linhas do banco de dados de forma não autorizada(ou indevida).
+
+Design Inseguro: é explorado quando na fase de desenvolvimento são utilziados componentes que não possuem limitações claras
+(Exemplo: quando tentativas de login consecutivas são permitidas)
+
+Configuração incorreta de segurança: é explorado quando no desenvolvimento são utilizados escolhas como portas e configurações padrões em excesso,
+o que pode possibilitar o uso das mesmas para a remoção ou alteração de código e acessos.
+
+Componentes Vulneraveis: Normalmente ocorrem na fase de desenvolvimento quando o programados utilizam de bibliotecas ou estruturas desatualizadas que 
+normalmente são alvo de ações maliciosas que atingem um grande numero de usuarios.(Exemplo: temas do wordpress)
+
+Falhas de identificação e autenticação: ocorrem quando as formas de autenticação de uma aplicação não é segura,
+um exemplo: não possui autenticação de dois fatores, a sessão não expira e etc.
+
+Falhas de software e integridade de dados: ocorrem quando um aplicativo acesita atualizações de fontes externas,
+e essas fontes podem estar compromentidas.
+
+Falhas de registro e monitoramento de segurança: ocorrem quando não existe o devido monitoramento e registros dos acessos a aplicação,
+como no caso dos arquivos de log.
+
+Falsificação de solicitação do lado do servidor: ocorre quando é enviada uma requisição falsa para um serviço de um servidor.
+Nesse caso, o servidor pode ter uma resposta inesperada e devolver informações sigilosas. 
+
+(Texto em revisão)
