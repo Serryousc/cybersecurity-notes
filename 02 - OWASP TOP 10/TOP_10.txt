@@ -1,6 +1,6 @@
 [PT-BR] Comentando sobre a OWASP TOP 10 Vulnerabilites.
 
-De acordo com o OWAPS Top 10(2021), as principais vulnerabilidades são: Controle de Acesso Quebrado, Falhas de Criptografia,
+De acordo com o OWASP Top 10(2021), as principais vulnerabilidades são: Controle de Acesso Quebrado, Falhas de Criptografia,
 Injeção , Design inseguro, Configurações Incorretas de Segurança, Componentes Vulneráveis e Desatualizados,
 Falhas de Identificação e Autenticação, Falhas de Software e Integridade de Dados, Falha de Registros e Monitoramento de Segurança e 
 SSRF(Falsificação de Requisição do lado do servidor).
@@ -11,13 +11,13 @@ quando um usuário tem acesso de administrador mesmo que não seja necessário p
 Falhas de Criptografia: Podem ser exploradas quando há falha no uso da criptografia, quando a implementação dos algoritmos de criptografia é feita de forma inadequada e/ou incorreta.
 
 Injeção: podem ser exploradas com o envio de dados não confiáveis em formulários ou campos não sanitizados. exemplo: quando é inserido um codigo SQL
-em um formulario que não teve o tratamento devido, assim o mesmo retorna codigo ou linhas do banco de dados de forma não autorizada(ou indevida).
+em um formulario que não teve o tratamento devido, assim o atacante altera a logica da consulta ao  banco de dados e executa comando de forma arbitraria/não autorizada.
 
-Design Inseguro: é explorado quando na fase de desenvolvimento são utilizados e/ou projetados componentes que não possuem limitações claras
-(Exemplo: quando tentativas de login consecutivas são permitidas)
+Design Inseguro: é explorado quando a aplcação é projetadas sem considerar adequadamente requisitos e controles de segurança, permitindo que determinadas funcionalidades sejam abusadas
+(Exemplo: quando tentativas de login consecutivas são permitidas e etc.)
 
 Configuração incorreta de segurança: é explorado quando configurações padrão, permissões excessivas e/ou serviços desnecessarios estão habilitados,
-o que pode possibilitar o uso das mesmas para a remoção ou alteração de código e acessos.
+o que pode possibilitar o uso das mesmas para a remoção ou alteração de código e acessos, exposição de informações, acesso não autorizad, execução de funcionalidades administrativas e etc.
 
 Componentes Vulneraveis: Normalmente ocorrem quando a aplicação utiliza de bibliotecas, frameworks  ou componentes desatualizados e com vulnerabilidades conhecidas, que 
 normalmente são alvo de ações maliciosas que atingem um grande numero de usuarios.
@@ -26,6 +26,6 @@ Falhas de identificação e autenticação: ocorrem quando as formas de autentic
 
 Falhas de software e integridade de dados: ocorrem quando a aplicação confia em dados, atualizações ou codigos sem verificar sua integridade, permitindo a inserção de conteúdo malicioso.
 
-Falhas de registro e monitoramento de segurança: ocorrem quando não existe o devido monitoramento e registros dos acessos a aplicação, como no caso dos arquivos de log.
+Falhas de registro e monitoramento de segurança: ocorrem quando não existe o devido monitoramento e registros dos acessos a aplicação, como no caso dos arquivos de log, problemas de detecção de ataque e falta de monitoramento continuo.
 
 Falsificação de solicitação do lado do servidor: ocorre quando o atacante induz o servidor a realizar requisições para destinos internos ou externos controlados, podendo acessar recursos internos ou expor dados sensíveis.
